@@ -31,8 +31,8 @@ export default function Hero() {
 
   const handleBookShoot = () => openWhatsApp('Hello Shri Ji Production House! I\'d like to book a shoot. Please share your packages and availability.')
 
-  const handleViewPortfolio = () => {
-    const el = document.getElementById('portfolio')
+  const handleViewServices = () => {
+    const el = document.getElementById('services')
     if (el) el.scrollIntoView({ behavior: 'smooth' })
   }
 
@@ -155,11 +155,11 @@ export default function Hero() {
               <span>Book Your Shoot</span>
             </button>
             <button
-              onClick={handleViewPortfolio}
+              onClick={handleViewServices}
               className="btn-outline-gold text-base px-10 py-4 min-w-[200px]"
             >
               <span>🎬</span>
-              <span>View Portfolio</span>
+              <span>View Services</span>
             </button>
           </motion.div>
         </motion.div>

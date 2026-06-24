@@ -39,7 +39,7 @@ export const hero = {
   tagline: 'A Legacy of Visual Storytelling Since 1986',
   description: 'For over four decades, we have transformed emotions into timeless cinematic masterpieces — weaving love, joy, and memories into frames that last forever.',
   cta1: { label: 'Book Your Shoot', href: '#contact' },
-  cta2: { label: 'View Portfolio', href: '#portfolio' },
+  cta2: { label: 'View Services', href: '#services' },
   slides: [
     {
       id: 1,
@@ -151,42 +151,6 @@ export const services = [
     whatsappMsg: 'Hi! I\'m interested in Live Event Coverage by Shri Ji Production House. Please share your packages.',
   },
 ]
-
-export const portfolio = {
-  categories: ['All', 'Wedding Films', 'Pre-Wedding', 'Baby Shoot', 'Maternity', 'Fashion', 'Products', 'Live Events'],
-  items: Array.from({ length: 18 }, (_, i) => ({
-    id: i + 1,
-    category: ['Wedding Films', 'Pre-Wedding', 'Baby Shoot', 'Maternity', 'Fashion', 'Products', 'Live Events'][i % 7],
-    gradient: [
-      'linear-gradient(135deg, #2d1b00, #1a0f00)',
-      'linear-gradient(135deg, #1a0020, #0d0015)',
-      'linear-gradient(135deg, #001a10, #000d08)',
-      'linear-gradient(135deg, #1a1500, #0d0b00)',
-      'linear-gradient(135deg, #001520, #000a15)',
-      'linear-gradient(135deg, #200010, #100008)',
-      'linear-gradient(135deg, #0d1520, #060a10)',
-    ][i % 7],
-    accent: ['#D4AF37', '#B8860B', '#FFD700', '#D4AF37', '#B8860B', '#FFD700', '#D4AF37'][i % 7],
-    label: [
-      'Cinematic Wedding Film',
-      'Royal Pre-Wedding',
-      'Newborn Magic',
-      'Glow of Motherhood',
-      'Editorial Fashion',
-      'Product Showcase',
-      'Live Concert Coverage',
-    ][i % 7],
-    subLabel: [
-      'Shri Ji Films',
-      'Location Series',
-      'Studio Session',
-      'Lifestyle Series',
-      'Brand Campaign',
-      'E-Commerce',
-      'Event Coverage',
-    ][i % 7],
-  })),
-}
 
 export const awards = [
   {
@@ -327,7 +291,6 @@ export const nav = [
   { label: 'Home',       href: '#home' },
   { label: 'About',      href: '#about' },
   { label: 'Services',   href: '#services' },
-  { label: 'Portfolio',  href: '#portfolio' },
   { label: 'Awards',     href: '#awards' },
   { label: 'Gallery',    href: '#gallery' },
   { label: 'Contact',    href: '#contact' },

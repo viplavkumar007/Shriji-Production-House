@@ -5,7 +5,7 @@ import { useActiveSection } from '../../hooks/useActiveSection'
 import { brand, nav, contact } from '../../data/siteContent'
 import { openWhatsApp } from '../../utils/whatsapp'
 
-const sectionIds = ['home', 'about', 'services', 'portfolio', 'awards', 'gallery', 'contact']
+const sectionIds = ['home', 'about', 'services', 'awards', 'gallery', 'contact']
 
 export default function Navbar() {
   const { scrolled } = useScrolled(60)

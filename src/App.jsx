@@ -4,7 +4,6 @@ import Footer from './components/layout/Footer'
 import Hero from './components/sections/Hero'
 import About from './components/sections/About'
 import Services from './components/sections/Services'
-import Portfolio from './components/sections/Portfolio'
 import Awards from './components/sections/Awards'
 import Timeline from './components/sections/Timeline'
 import Testimonials from './components/sections/Testimonials'
@@ -42,7 +41,6 @@ export default function App() {
         <Hero />
         <About />
         <Services />
-        <Portfolio />
         <Awards />
         <Timeline />
         <Gallery />
